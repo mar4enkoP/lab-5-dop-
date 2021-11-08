@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cmath>
 #include <iomanip>
 
@@ -24,7 +24,7 @@ void Task11()
 {
 	//Решить систему уравнений x = x ^ 2 + y ^ 2 + 0, 05;
 	//                         y = x ^ 2 - y ^ 2 + 0, 23;
-	//						 x = 0; y = 0; точность 10^-4
+	//						   x = 0; y = 0; точность 10^-4
 	double x, y, z;
 
 	cout << "Vvedite x: ";
@@ -63,12 +63,12 @@ void Task32()
 
 		a /= 10;
 	}
-	cout << "Max"<< endl;
+	cout << "Max" << endl;
 	cout << "from the end " << c << "     from the beginn " << d - c + 1 << endl;
 	a = a_; //минимальный
 	c = 0;
 	b = 10;
-	d = 0; 
+	d = 0;
 	while (a > 0)
 	{
 		d++;
@@ -78,9 +78,9 @@ void Task32()
 			c = d;
 		}
 		a /= 10;
-	} 
+	}
 	cout << "Min" << endl;
-	cout <<"from the end " << c << "     from the beginn " << d - c + 1<< endl;
+	cout << "from the end " << c << "     from the beginn " << d - c + 1 << endl;
 
 }
 void Task53()
@@ -94,7 +94,9 @@ void Task53()
 		cout << a[i] << " ";
 	}
 	for (int i = 0; i < 100; i++)
-	{if (i % 10 == 7){cout << endl << "(" << i << ")" << endl;}}
+	{
+		if (i % 10 == 7) { cout << endl << "(" << i << ")" << endl; }
+	}
 	cout << "\n";
 	system("pause");
 }
@@ -116,7 +118,7 @@ void Task74()
 }
 int main()
 {
-		int Num, i;
+	int Num, i;
 	for (i = 0; i <= 4; i++)
 	{
 		cout << "chose 11, 32, 53, 74: ";
