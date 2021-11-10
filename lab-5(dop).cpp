@@ -24,7 +24,7 @@ void Task11()
 {
 	//Решить систему уравнений x = x ^ 2 + y ^ 2 + 0, 05;
 	//                         y = x ^ 2 - y ^ 2 + 0, 23;
-	//						   x = 0; y = 0; точность 10^-4
+	//			   x = 0; y = 0; точность 10^-4
 	double x, y, z;
 
 	cout << "Vvedite x: ";
@@ -96,6 +96,7 @@ void Task53()
 	for (int i = 0; i < 100; i++)
 	{
 		if (i % 10 == 7) { cout << endl << "(" << i << ")" << endl; }
+		if ((i/10) % 10 == 7) { cout << endl << "(" << i << ")" << endl; }
 	}
 	cout << "\n";
 	system("pause");
